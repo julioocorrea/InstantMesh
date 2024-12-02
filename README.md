@@ -59,7 +59,7 @@ Para utilizar o InstantMesh, você precisará dos seguintes pré-requisitos:
    
 ## Execução com Docker
 
-### Caso prefira utilizar Docker, siga os passos abaixo:
+- **Caso prefira utilizar Docker, siga os passos abaixo:**
 
 1. **Construir a Imagem Docker**
    
@@ -73,7 +73,7 @@ Para utilizar o InstantMesh, você precisará dos seguintes pré-requisitos:
    
 ## Limitações
 
-Apesar de suas capacidades avançadas, o InstantMesh possui algumas limitações:
+- **Apesar de suas capacidades avançadas, o InstantMesh possui algumas limitações:**
 
 - **Dependência da Qualidade da Imagem:** A precisão da malha 3D gerada depende fortemente da qualidade da imagem de entrada.
 - **Requisitos Computacionais:** A execução eficiente do modelo pode exigir hardware robusto, especialmente GPUs.
@@ -82,10 +82,12 @@ Apesar de suas capacidades avançadas, o InstantMesh possui algumas limitações
 ## Política de Uso
 
 ### Licença:
-InstantMesh é distribuído sob a licença Apache-2.0, permitindo uso, modificação e distribuição dentro dos termos especificados.
+
+- **InstantMesh é distribuído sob a licença Apache-2.0, permitindo uso, modificação e distribuição dentro dos termos especificados.**
 
 ### Contribuições
-Contribuições para o projeto são bem-vindas. Se você tiver sugestões ou melhorias, por favor, envie um pull request ou abra uma issue no GitHub.
+
+- **Contribuições para o projeto são bem-vindas. Se você tiver sugestões ou melhorias, por favor, envie um pull request ou abra uma issue no GitHub.**
 
 ## Uso Ético
 
