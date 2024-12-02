@@ -1,39 +1,37 @@
-InstantMesh: Geração Eficiente de Malhas 3D a Partir de uma Única Imagem
-Introdução
-InstantMesh é uma ferramenta avançada desenvolvida pela TencentARC para a geração eficiente de malhas 3D a partir de uma única imagem. Utilizando uma combinação inovadora de técnicas de difusão multiview e reconstrução esparsa (LRM - Large Reconstruction Model), o InstantMesh consegue criar malhas tridimensionais detalhadas de forma rápida e precisa. Este modelo é especialmente útil em áreas como design de produtos, jogos, animações, medicina e educação.
+# InstantMesh: Geração Eficiente de Malhas 3D a Partir de uma Única Imagem
 
-Principais Características
-Eficiência na Geração
-Tempo Rápido: Capaz de gerar uma malha 3D em aproximadamente 10 segundos.
+## Introdução
+**InstantMesh** é uma ferramenta avançada desenvolvida pela TencentARC para a geração eficiente de malhas 3D a partir de uma única imagem. Utilizando uma combinação inovadora de técnicas de difusão multiview e reconstrução esparsa (LRM - Large Reconstruction Model), o InstantMesh consegue criar malhas tridimensionais detalhadas de forma rápida e precisa. Este modelo é especialmente útil em áreas como design de produtos, jogos, animações, medicina e educação.
 
-Algoritmo de Difusão Multiview: Gera múltiplas vistas do objeto a partir de uma única imagem, captando diferentes ângulos e detalhes.
+## Principais Características
+### Eficiência na Geração
+- **Tempo Rápido:** Capaz de gerar uma malha 3D em aproximadamente 10 segundos.
+- **Algoritmo de Difusão Multiview:** Gera múltiplas vistas do objeto a partir de uma única imagem, captando diferentes ângulos e detalhes.
 
-Alta Precisão
-Supervisões Geométricas: Utiliza mapas de profundidade e normais de superfície para melhorar a qualidade e a precisão das malhas.
+### Alta Precisão
+- **Supervisões Geométricas:** Utiliza mapas de profundidade e normais de superfície para melhorar a qualidade e a precisão das malhas.
+- **Reconstrução Esparsa (LRM):** O modelo aplica técnicas de aprendizado profundo para criar uma malha inicial e refiná-la, resultando em um modelo tridimensional detalhado.
 
-Reconstrução Esparsa (LRM): O modelo aplica técnicas de aprendizado profundo para criar uma malha inicial e refiná-la, resultando em um modelo tridimensional detalhado.
+### Facilidade de Integração
+- **Compatibilidade:** O InstantMesh é compatível com ferramentas populares de aprendizado de máquina e processamento de imagens como Python, PyTorch, OpenCV e NumPy.
 
-Facilidade de Integração
-Compatibilidade: O InstantMesh é compatível com ferramentas populares de aprendizado de máquina e processamento de imagens como Python, PyTorch, OpenCV e NumPy.
+## Como Usar
 
-Como Usar
-Pré-requisitos
+### Pré-requisitos
 Para utilizar o InstantMesh, você precisará dos seguintes pré-requisitos:
+- **Python 3.8 ou superior.**
+- **PyTorch 1.8.1 ou superior.**
+- **Bibliotecas adicionais: OpenCV, NumPy.**
 
-Python 3.8 ou superior.
+### Passos para Instalação e Execução
 
-PyTorch 1.8.1 ou superior.
+1. **Clonar o Repositório**
 
-Bibliotecas adicionais: OpenCV, NumPy.
-
-Passos para Instalação e Execução
-Clonar o Repositório
-
-bash
+```bash
 git clone https://github.com/TencentARC/InstantMesh
 Instalar as Dependências
 
-bash
+```bash
 pip install -r requirements.txt
 Baixar os Modelos
 
