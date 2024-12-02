@@ -67,6 +67,7 @@ Apesar de suas capacidades avançadas, o InstantMesh possui algumas limitações
 - **Escopo Limitado:** O modelo é otimizado para certos tipos de objetos e cenários, podendo não fornecer resultados ideais para todas as aplicações.
 
 ### Política de Uso
+
 ## Licença:
 InstantMesh é distribuído sob a licença Apache-2.0, permitindo uso, modificação e distribuição dentro dos termos especificados.
 
