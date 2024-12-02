@@ -1,18 +1,22 @@
 # InstantMesh: Geração Eficiente de Malhas 3D a Partir de uma Única Imagem
 
 ## Introdução
+
 **InstantMesh** é uma ferramenta avançada desenvolvida pela TencentARC para a geração eficiente de malhas 3D a partir de uma única imagem. Utilizando uma combinação inovadora de técnicas de difusão multiview e reconstrução esparsa (LRM - Large Reconstruction Model), o InstantMesh consegue criar malhas tridimensionais detalhadas de forma rápida e precisa. Este modelo é especialmente útil em áreas como design de produtos, jogos, animações, medicina e educação.
 
 ## Principais Características
-### Eficiência na Geração
+
+# Eficiência na Geração
 - **Tempo Rápido:** Capaz de gerar uma malha 3D em aproximadamente 10 segundos.
 - **Algoritmo de Difusão Multiview:** Gera múltiplas vistas do objeto a partir de uma única imagem, captando diferentes ângulos e detalhes.
 
 ### Alta Precisão
+
 - **Supervisões Geométricas:** Utiliza mapas de profundidade e normais de superfície para melhorar a qualidade e a precisão das malhas.
 - **Reconstrução Esparsa (LRM):** O modelo aplica técnicas de aprendizado profundo para criar uma malha inicial e refiná-la, resultando em um modelo tridimensional detalhado.
 
 ### Facilidade de Integração
+
 - **Compatibilidade:** O InstantMesh é compatível com ferramentas populares de aprendizado de máquina e processamento de imagens como Python, PyTorch, OpenCV e NumPy.
 
 ## Como Usar
@@ -75,7 +79,8 @@ InstantMesh é distribuído sob a licença Apache-2.0, permitindo uso, modifica�
 Contribuições para o projeto são bem-vindas. Se você tiver sugestões ou melhorias, por favor, envie um pull request ou abra uma issue no GitHub.
 
 ### Uso Ético
-## Os usuários devem respeitar normas éticas e legais ao utilizar o InstantMesh, especialmente no que diz respeito à privacidade e direitos autorais.
+
+- **Os usuários devem respeitar normas éticas e legais ao utilizar o InstantMesh, especialmente no que diz respeito à privacidade e direitos autorais.**
 
 ### Resultados
 
