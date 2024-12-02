@@ -26,69 +26,55 @@ Para utilizar o InstantMesh, você precisará dos seguintes pré-requisitos:
 ### Passos para Instalação e Execução
 
 1. **Clonar o Repositório**
+   ```bash
+   git clone https://github.com/TencentARC/InstantMesh
+   
+2. **Instalar as Dependências**
+   ```bash
+    pip install -r requirements.txt
+   
+3. **Baixar os Modelos**
 
-```bash
-git clone https://github.com/TencentARC/InstantMesh
-Instalar as Dependências
+- **Os modelos podem ser baixados automaticamente pelo script de inferência ou manualmente e colocados na pasta ckpts/.**
 
-```bash
-pip install -r requirements.txt
-Baixar os Modelos
+4. **Executar o Modelo**
 
-Os modelos podem ser baixados automaticamente pelo script de inferência ou manualmente e colocados na pasta ckpts/.
+- **Demo Local:** Iniciar o demo com:
+   ```bash
+    python app.py
+   
+- **Geração de Malhas via Linha de Comando:**
+   ```bash
+    python run.py configs/instant-mesh-large.yaml examples/hatsune_miku.png --save_video
 
-Executar o Modelo
-
-Demo Local: Iniciar o demo com python app.py.
-
-Geração de Malhas via Linha de Comando:
-
-bash
-python run.py configs/instant-mesh-large.yaml examples/hatsune_miku.png --save_video
-Execução com Docker
+   
+### Execução com Docker
 Caso prefira utilizar Docker, siga os passos abaixo:
 
-Construir a Imagem Docker
+1. **Construir a Imagem Docker**
+   ```bash
+    docker build -t instantmesh .
 
-bash
-docker build -t instantmesh .
-Executar o Contêiner Docker
-
-bash
-docker run -p 8080:8080 instantmesh
-Limitações
+2. **Executar o Contêiner Docker**
+   ```bash
+    docker run -p 8080:8080 instantmesh
+   
+### Limitações
 Apesar de suas capacidades avançadas, o InstantMesh possui algumas limitações:
 
-Dependência da Qualidade da Imagem: A precisão da malha 3D gerada depende fortemente da qualidade da imagem de entrada.
+- **Dependência da Qualidade da Imagem:** A precisão da malha 3D gerada depende fortemente da qualidade da imagem de entrada.
+- **Requisitos Computacionais:** A execução eficiente do modelo pode exigir hardware robusto, especialmente GPUs.
+- **Escopo Limitado:** O modelo é otimizado para certos tipos de objetos e cenários, podendo não fornecer resultados ideais para todas as aplicações.
 
-Requisitos Computacionais: A execução eficiente do modelo pode exigir hardware robusto, especialmente GPUs.
-
-Escopo Limitado: O modelo é otimizado para certos tipos de objetos e cenários, podendo não fornecer resultados ideais para todas as aplicações.
-
-Política de Uso
-Licença
+### Política de Uso
+## Licença:
 InstantMesh é distribuído sob a licença Apache-2.0, permitindo uso, modificação e distribuição dentro dos termos especificados.
 
-Contribuições
+## Contribuições
 Contribuições para o projeto são bem-vindas. Se você tiver sugestões ou melhorias, por favor, envie um pull request ou abra uma issue no GitHub.
 
-Uso Ético
-Os usuários devem respeitar normas éticas e legais ao utilizar o InstantMesh, especialmente no que diz respeito à privacidade e direitos autorais.
+### Uso Ético
+## Os usuários devem respeitar normas éticas e legais ao utilizar o InstantMesh, especialmente no que diz respeito à privacidade e direitos autorais.
 
-Resultados
-InstantMesh é capaz de gerar malhas 3D de alta qualidade rapidamente, o que é demonstrado em várias aplicações:
+### Resultados
 
-Design de Produtos: Permite a criação de protótipos e modelos digitais a partir de imagens.
-
-Jogos e Animações: Utilizado para gerar personagens e objetos tridimensionais.
-
-Medicina: Ajuda na reconstrução de modelos 3D a partir de imagens médicas, auxiliando no planejamento cirúrgico.
-
-Educação: Serve como ferramenta de ensino de conceitos de modelagem 3D e visualização.
-
-Referências
-Para mais informações, consulte os links abaixo:
-
-Artigo no arXiv
-
-Repositório no GitHub
