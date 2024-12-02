@@ -68,10 +68,10 @@ Apesar de suas capacidades avançadas, o InstantMesh possui algumas limitações
 
 ### Política de Uso
 
-## Licença:
+- **Licença:**
 InstantMesh é distribuído sob a licença Apache-2.0, permitindo uso, modificação e distribuição dentro dos termos especificados.
 
-## Contribuições
+- ** Contribuições**
 Contribuições para o projeto são bem-vindas. Se você tiver sugestões ou melhorias, por favor, envie um pull request ou abra uma issue no GitHub.
 
 ### Uso Ético
