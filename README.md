@@ -70,7 +70,11 @@ Embora o InstantMesh seja uma ferramenta avançada, algumas limitações devem s
 - ![image](https://github.com/user-attachments/assets/2f872392-0ebb-45b2-b34d-d76a8621336c)
 
 ## Referências
-https://arxiv.org/pdf/2404.07191
-https://www.reddit.com/r/EnhancerAI/comments/1c7md0f/i_tested_instantmesh_3d_mesh_generation_from_a/?tl=pt-br
-https://github.com/TencentARC/InstantMesh
-https://huggingface.co/TencentARC/InstantMesh
+
+- **https://arxiv.org/pdf/2404.07191**
+- 
+- **https://www.reddit.com/r/EnhancerAI/comments/1c7md0f/i_tested_instantmesh_3d_mesh_generation_from_a/?tl=pt-br**
+- 
+- **https://github.com/TencentARC/InstantMesh**
+- 
+- **https://huggingface.co/TencentARC/InstantMesh**
