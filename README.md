@@ -55,10 +55,16 @@ Embora o InstantMesh seja uma ferramenta avançada, algumas limitações devem s
 - **Requisitos Computacionais:** A execução do modelo pode exigir hardware robusto, especialmente uma GPU com capacidade de processamento de alto desempenho.
 - **Escopo Limitado:** Embora o modelo seja altamente eficaz para certos tipos de objetos e cenas, ele pode não gerar resultados ideais para todos os tipos de imagens, como objetos com grande variação de iluminação ou sombras complexas.
 
-Imagem de Entrada: !Imagem de Entrada
-Malha 3D Gerada: !Malha 3D
-Comparação com Outras Ferramentas
-Os resultados do InstantMesh foram comparados com outras ferramentas de geração de malhas 3D, mostrando uma superioridade tanto em qualidade quanto em tempo de processamento.
+## Exemplo de uso
+
+- **Imagem de Entrada:**
+![image](https://github.com/user-attachments/assets/37781de2-3a30-4510-b244-d7c1e3a5e89c)
+
+- **Geração de Múltiplas Vistas (Multiview):**
+![image](https://github.com/user-attachments/assets/cb3d246f-7dec-4e63-9736-6f9412254923)
+
+- **Construção da Malha 3D:**
+![image](https://github.com/user-attachments/assets/3d9c7390-41ca-447c-8cc1-2c2839ff373b)
 
 ## Referências
 https://arxiv.org/pdf/2404.07191
