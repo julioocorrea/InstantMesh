@@ -3,6 +3,7 @@
 ## Introdução
 
 O **InstantMesh** é uma ferramenta inovadora desenvolvida pela TencentARC que utiliza técnicas avançadas de **difusão multiview** e **reconstrução esparsa** (LRM - Large Reconstruction Model) para gerar malhas 3D detalhadas a partir de uma única imagem 2D. O modelo combina aprendizado profundo com algoritmos de reconstrução para criar representações tridimensionais com alta precisão, de forma rápida e eficiente. Isso o torna útil em várias áreas, incluindo design de produtos, jogos, animações, medicina e educação.
+![image](https://github.com/user-attachments/assets/e466fd8f-d430-4f7b-8efa-1c10d81ec550)
 
 ## Como Funciona
 
