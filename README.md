@@ -55,3 +55,10 @@ Imagem de Entrada: !Imagem de Entrada
 Malha 3D Gerada: !Malha 3D
 Comparação com Outras Ferramentas
 Os resultados do InstantMesh foram comparados com outras ferramentas de geração de malhas 3D, mostrando uma superioridade tanto em qualidade quanto em tempo de processamento.
+
+## Referências
+https://arxiv.org/pdf/2404.07191
+https://www.reddit.com/r/EnhancerAI/comments/1c7md0f/i_tested_instantmesh_3d_mesh_generation_from_a/?tl=pt-br&rdt=54744
+https://huggingface.co/TencentARC/InstantMesh
+https://huggingface.co/spaces/TencentARC/InstantMesh
+https://github.com/TencentARC/InstantMesh
