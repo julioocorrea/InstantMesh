@@ -58,9 +58,19 @@ Embora o InstantMesh seja uma ferramenta avançada, algumas limitações devem s
 ## Exemplo de uso
 
 - **Imagem de Entrada:**
+  
 ![image](https://github.com/user-attachments/assets/37781de2-3a30-4510-b244-d7c1e3a5e89c)
 
 - **Geração de Múltiplas Vistas (Multiview):**
+  
 ![image](https://github.com/user-attachments/assets/cb3d246f-7dec-4e63-9736-6f9412254923)
 
 - **Construção da Malha 3D:**
+  
+- ![image](https://github.com/user-attachments/assets/2f872392-0ebb-45b2-b34d-d76a8621336c)
+
+## Referências
+https://arxiv.org/pdf/2404.07191
+https://www.reddit.com/r/EnhancerAI/comments/1c7md0f/i_tested_instantmesh_3d_mesh_generation_from_a/?tl=pt-br
+https://github.com/TencentARC/InstantMesh
+https://huggingface.co/TencentARC/InstantMesh
