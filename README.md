@@ -67,7 +67,7 @@ Embora o InstantMesh seja uma ferramenta avançada, algumas limitações devem s
 
 - **Construção da Malha 3D:**
   
-- ![image](https://github.com/user-attachments/assets/2f872392-0ebb-45b2-b34d-d76a8621336c)
+![image](https://github.com/user-attachments/assets/2f872392-0ebb-45b2-b34d-d76a8621336c)
 
 ## Referências
 
